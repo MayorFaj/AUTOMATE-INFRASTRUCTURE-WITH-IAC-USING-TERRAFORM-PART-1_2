@@ -4,5 +4,5 @@
 
 - ARCHITECTURE
 
-![architecture](./images/Secure%20Infrastructure%20Architeture%20for%202%20Companies%20Website.png)
+![architecture](./images/architecturee.png)
 
