@@ -16,7 +16,7 @@ resource "random_integer" "random" {
 #create random resource for AZ
 resource "random_shuffle" "az_list" {
   input        = data.aws_availability_zones.available.names
-  result_count = 30
+  result_count = 20
 }
 
 #create main vpc

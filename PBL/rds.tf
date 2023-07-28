@@ -2,8 +2,8 @@
 resource "aws_db_subnet_group" "pbl-rds" {
   name = "pbl-rds"
   subnet_ids = [
-    aws_subnet.pbl-private[2].id,
-    aws_subnet.pbl-private[3].id
+    aws_subnet.pbl-private[4].id,
+    aws_subnet.pbl-private[5].id
   ]
 
   tags = merge(

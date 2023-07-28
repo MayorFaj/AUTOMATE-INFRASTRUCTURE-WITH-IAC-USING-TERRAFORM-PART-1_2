@@ -1,6 +1,6 @@
 #--- root/terrafom.tfvars ---
 
-aws_region = "us-west-2"
+aws_region = "eu-central-1"
 
 vpc_cidr = "10.0.0.0/16"
 
@@ -10,7 +10,7 @@ enable_dns_support = true
 
 preferred_number_of_pub_subnets = 2
 
-preferred_number_of_priv_subnets = 4
+preferred_number_of_priv_subnets = 6
 
 tags = {
   Environment     = "production"

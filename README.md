@@ -4,5 +4,5 @@
 
 - ARCHITECTURE
 
-![architecture](./images/architecturee.png)
+![architecture](./images/architecture1.png)
 

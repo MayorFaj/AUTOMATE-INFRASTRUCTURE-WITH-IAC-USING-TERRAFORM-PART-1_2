@@ -136,8 +136,8 @@ resource "aws_autoscaling_group" "nginx-asg" {
   desired_capacity          = 2
 
   vpc_zone_identifier = [
-    aws_subnet.pbl-public[0].id,
-    aws_subnet.pbl-public[1].id
+    aws_subnet.pbl-private[0].id,
+    aws_subnet.pbl-private[1].id
   ]
 
   launch_template {

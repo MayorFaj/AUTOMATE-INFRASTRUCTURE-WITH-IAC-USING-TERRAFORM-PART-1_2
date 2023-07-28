@@ -45,8 +45,8 @@ resource "aws_autoscaling_group" "wordpress-asg" {
   desired_capacity          = 2
   vpc_zone_identifier = [
 
-    aws_subnet.pbl-private[0].id,
-    aws_subnet.pbl-private[1].id
+    aws_subnet.pbl-private[2].id,
+    aws_subnet.pbl-private[3].id
   ]
 
   launch_template {
@@ -113,8 +113,8 @@ resource "aws_autoscaling_group" "tooling-asg" {
 
   vpc_zone_identifier = [
 
-    aws_subnet.pbl-private[0].id,
-    aws_subnet.pbl-private[1].id
+    aws_subnet.pbl-private[2].id,
+    aws_subnet.pbl-private[3].id
   ]
 
   launch_template {
